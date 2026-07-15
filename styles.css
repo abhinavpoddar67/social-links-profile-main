@@ -1,0 +1,65 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    background-color: hsl(0, 0%, 12%);
+    height: 95%;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 5px;
+}
+
+.img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+img {
+    height: 100%;
+    width: 35%;
+    border-radius: 50%;
+}
+
+.btn {
+    border-radius: 5px;
+    height: 7%;
+    background-color: hsl(0, 0%, 20%);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.txt {
+    align-self: center;
+    margin: 7%;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.text {
+    color: hsl(75, 94%, 57%);
+}
+
+.t {
+    color: hsl(0, 4%, 76%);
+}
